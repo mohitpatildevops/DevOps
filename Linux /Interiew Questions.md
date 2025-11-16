@@ -1,5 +1,5 @@
-````
-Easy
+
+**Easy**
 ````
 1. What is Linux, and how is it different from Unix?
 2. Explain the Linux directory structure. What is /etc, /var, /home, /bin used for?
@@ -22,7 +22,7 @@ Easy
 19. Difference between hard link and soft link.
 20. How to check which user you are logged in as?
 ````
-Moderate 
+**Moderate**
 ````
 1. How do you monitor system resource usage in real time?
 2. Scenario: CPU usage is 100%. How will you find and fix the issue?
@@ -47,7 +47,8 @@ space?
 19. How do you copy files between servers?
 20. How do you monitor logs in real time and filter for errors?
 ````
-Difficult
+**Difficult**
+````
 1. Scenario: Your web application is slow. How would you identify whether it’s a system,
 network, or application-level issue?
 2. Explain the Linux boot process step by step.
@@ -61,3 +62,4 @@ network, or application-level issue?
 9. Scenario: Your /tmp directory is full but cannot be cleared normally. What would you
 do?
 10. Explain how SELinux or AppArmor enhances security in Linux.
+````
