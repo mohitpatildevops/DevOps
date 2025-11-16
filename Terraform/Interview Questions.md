@@ -1,4 +1,4 @@
-**𝟏𝟓 𝐚𝐝𝐯𝐚𝐧𝐜𝐞𝐝, 𝐫𝐞𝐚𝐥-𝐰𝐨𝐫𝐥𝐝 𝐓𝐞𝐫𝐫𝐚𝐟𝐨𝐫𝐦 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬**
+**𝟏𝟓 A𝐝𝐯𝐚𝐧𝐜𝐞𝐝,R𝐞𝐚𝐥-𝐰𝐨𝐫𝐥𝐝 𝐓𝐞𝐫𝐫𝐚𝐟𝐨𝐫𝐦 Q𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬**
 
 1. How do you design a 𝐦𝐮𝐥𝐭𝐢-𝐚𝐜𝐜𝐨𝐮𝐧𝐭 𝐀𝐖𝐒 𝐬𝐞𝐭𝐮𝐩 with shared modules and centralized state management?
 2. What’s your strategy to 𝐦𝐚𝐧𝐚𝐠𝐞 𝐩𝐫𝐨𝐯𝐢𝐝𝐞𝐫 𝐯𝐞𝐫𝐬𝐢𝐨𝐧 𝐝𝐫𝐢𝐟𝐭 across multiple repos and teams?
