@@ -1,0 +1,206 @@
+%-------------------------
+% Resume in Latex
+% Author : Mohit Patil
+% Based off of: Jake's Resume Template
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Mohit Patil} \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91-7387494049 ~ \href{mailto:mohitpatildevopss@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{mohitpatildevopss@gmail.com}} ~ 
+    \href{www.linkedin.com/in/mohitpatildevops}{\raisebox{-0.2\height}\faLinkedin\ \underline{LinkedIn}}  ~
+    \href{https://github.com/mohitpatildevops}{\raisebox{-0.2\height}\faGithub\ \underline{GitHub}}
+    \\ \vspace{1pt}
+    \small Pune, India
+    \vspace{-8pt}
+\end{center}
+
+%----------PROFESSIONAL SUMMARY----------
+\section{Professional Summary}
+DevOps Engineer with experience in building, automating, and maintaining cloud-native infrastructure and CI/CD pipelines. Proven ability to manage containerized workloads, infrastructure as code, and production-grade monitoring. Hands-on involvement in high-availability systems, release automation, and reliability improvements across development and operations teams.
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Hisan Labs Private Limited}{June 2025 -- Present}
+      {DevOps Engineer Intern}{Pune, Maharashtra}
+      \resumeItemListStart
+        \resumeItem{Built optimized multi-branch CI/CD pipelines supporting feature, release, hotfix and production workflows}
+        \resumeItem{Implemented centralized Jenkins Shared Libraries to standardize pipeline logic across 35+ services}
+        \resumeItem{Configured Route53 for domain management, DNS routing, health checks, and failover routing}
+        \resumeItem{Managed VPC networking including subnets, NAT gateways, route tables, security groups}
+        \resumeItem{Introduced pipeline parallelization to reduce build and deployment time by 40\%}
+        \resumeItem{Integrated SonarQube to automate code quality checks, security scans and coverage validation}
+        \resumeItem{Managed Artifactory for artifact storage, versioning, and retention policies}
+        \resumeItem{Implemented Blue-Green and Rolling deployment strategies for EKS workloads}
+        \resumeItem{Configured Slack and MS Teams notifications for build, deployment, and production release events}
+        \resumeItem{Designed secure S3 bucket policies, lifecycle rules, versioning, and CloudFront cache behaviors for high-traffic Angular applications}
+        \resumeItem{Managed VPC networking including subnets, NAT gateways, route tables, security groups, NACLs, and VPC endpoints}
+        \resumeItem{Implemented EKS managed node groups, cluster autoscaling, and IAM Roles for Service Accounts (IRSA)}
+        \resumeItem{Tuned RDS performance, parameter groups, snapshots, and cross-region backups}
+      \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Cloud Platforms}{: AWS, Azure, GCP} \\
+     \textbf{Version Control}{: Git, GitHub} \\
+     \textbf{Containerization \& Orchestration}{: Docker, Kubernetes} \\
+     \textbf{Monitoring}{: CloudWatch, Prometheus, Grafana, Datadog} \\
+     \textbf{Infrastructure as Code}{: Terraform, Ansible, CloudFormation} \\
+     \textbf{CI/CD}{: Jenkins, GitHub Actions, GitLab} \\
+     \textbf{Scripting}{: Bash, Python, Shell Scripting} \\
+     \textbf{Networking}{: OSI, TCP/IP, DNS, HTTP/HTTPS} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    
+      \resumeProjectHeading
+          {\textbf{Myntra Application Deployment with CI/CD}}{2025}
+          \resumeItemListStart
+            \resumeItem{Deployed the Myntra clone application on Linux server and AWS EC2}
+            \resumeItem{Created GitHub repository and managed source code with version control}
+            \resumeItem{Built CI/CD pipeline using Jenkins for automated deployments}
+            \resumeItem{Created Dockerfile and Docker images for containers}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+      \resumeProjectHeading
+          {\textbf{Super Mario Application with Cloud Infrastructure}}{2025}
+          \resumeItemListStart
+            \resumeItem{Set up AWS cloud environment using Terraform for infrastructure provisioning (IAM roles, EC2, EKS)}
+            \resumeItem{Configured and managed Docker installation on EC2 instances for container deployment}
+            \resumeItem{Installed and configured Terraform to automate creation and management of cloud resources}
+            \resumeItem{Implemented Kubernetes deployment and service YAML configurations for container orchestration}
+          \resumeItemListEnd 
+          
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Bachelor of Computer Science}{2022 -- 2025}
+      {CGPA: 7.8/10}{}
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{Certification}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+            {\textbf{\href{https://catalog-education.oracle.com/pls/certview/sharebadge?id=37E453F9CFFFA46DA928333C0171B9E13A75D4CB77C664CF94BC45FBBC8D56F0}{Oracle Cloud Infrastructure 2025 Certified Foundations Associate}}}{2025}
+    \resumeSubHeadingListEnd
+
+%-----------PERSONAL DETAILS-----------
+\section{Personal Details}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Full Name}{: Mohit Tulshidas Patil} \\
+     \textbf{Permanent Address}{: Nampur, Tal: Satana, Dist: Nashik} \\
+     \textbf{Current Address}{: Forest Trail Township, Bhugao, Pune, Maharashtra} \\
+     \textbf{Gender}{: Male} \\
+     \textbf{Marital Status}{: Unmarried} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+%-----------DECLARATION-----------
+\section{Declaration}
+I hereby declare that the above information is true to the best of my knowledge.
+
+\end{document}
